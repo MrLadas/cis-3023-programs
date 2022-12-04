@@ -1,0 +1,33 @@
+main{
+    width: 1400px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: white;
+    border: thick solid black;
+    border-radius: 20px;
+}
+.text-area{
+    display: inline;
+    color: green;
+    border-color: #f2be36;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+}
+.text-area-flex{
+
+}
+.text-area-centered{
+    display: inline;
+    color: blue;
+    height: 400px;
+    width: 800px;
+
+}
+.input_label{
+    display: block;
+    width: 10em;
+    text-align: right;
+    padding: 1em;
+    float: left;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EssayGen</title>
+    <script type="text/javascript" src="essayGen.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/latest/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="essayGen.css" />
+    <link rel="icon" type="image/x-icon" href=""/>
+</head>
+
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <h1>Generate Essays</h1>
+        <table>
+            <tr>
+                <td><textarea name="articles" class="text-area-flex text-area" id="articles" placeholder="Enter articles here"></textarea></td>
+                <label for="articles" class="input_label">Articles</label> 
+                <td><textarea name="adjectives" class="text-area-flex text-area" id="adjectives" placeholder="Enter adjectives here"></textarea></td>
+                <label for="adjectives" class="input_label">Adjectives</label> 
+                <td><textarea name="prepositions" class="text-area-flex text-area" id="prepositions" placeholder="Enter prepositions here"></textarea></td>
+                <label for="prepositions" class="input_label">Prepositions</label>   
+                <td><textarea name="nouns" class="text-area-flex text-area" id="nouns" placeholder="Enter nouns here"></textarea></td>
+                <label for="nouns" class="input_label">Nouns</label>
+                <td><textarea name="verbs" class="text-area-flex text-area" id="verbs" placeholder="Enter verbs here"></textarea></td>
+                <label for="verbs" class="input_label">Verbs</label>
+            </tr>
+        </table>
+        <br> 
+        <input type="button" name="generate-button" class="generate-button" id="generate-button" value="Generate Essay">
+        <br>
+        <br>
+        <textarea name="essayOut" class="text-area text-area-centered" id="essayOut" placeholder="Essay will be shown here" readonly></textarea> 
+    </main>
+    <footer>
+
+    </footer>
+</body>

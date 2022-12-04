@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Birthday Probability</title>
+    <script type="text/javascript" src="probability.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/latest/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="probability.css" />
+    <link rel="icon" type="image/x-icon" href="icons-gift.png"/>
+</head>
+
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <h1>Calculate the probability of 2 people in a room of 25 people sharing the same birthday.</h1>
+        <form>
+            <label for="numOfTests">Number of tests to run:</label>
+            <input type="text" id="numOfTests"  name="numOfTests" min="1" placeholder="1000" step="1" pattern="[0-9]+" required/>
+            <br>
+            <label for="probOutput">Probability:</label>
+            <input type="text" id="probOutput" name="probOutput" placeholder="----" readonly />
+            <br>
+            <input type="button" id="calcBtn" name="calcBtn" class="input_button" value="Calculate"/>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
